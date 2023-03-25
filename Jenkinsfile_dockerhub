@@ -49,3 +49,4 @@ def getTag(branchName){
     def DATETIME_TAG = new Date().format('yyyyMMddHHmmss')
     TAG = "${DATETIME_TAG}"
     return TAG
+}
